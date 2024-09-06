@@ -5,14 +5,7 @@
   --color-slate: #434455;
   --color-logo: #4d5ae5;
   --color-white: #FFFFFF;
-  --color-link-default: #2e2f42;
-  /* Колір тексту для посилань */
-  --color-link-hover: #404bbf;
-  /* Колір тексту при наведенні */
 }
-
-/* Підключення Google шрифтів */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@700&display=swap');
 
 /* Стили для body */
 body {
@@ -95,29 +88,25 @@ ul img {
 
 /* Стили для ссылок */
 a {
-  color: inherit;
+  color: #2e2f42;
+  /* Додано для стилізації */
   text-decoration: none;
+  line-height: 1.5;
+  /* Додано для простору між рядками */
+  letter-spacing: 0.02em;
+  /* Додано для відступів між літерами */
 }
 
-a:hover,
-a:focus {
+a:hover {
+  color: #404bbf;
+  /* Додано для зміни кольору при наведенні */
   text-decoration: underline;
 }
 
-/* Стилі для першого пункту списку */
-ul li:first-of-type a {
-  line-height: 1.5;
-  /* Простір між рядками */
-  letter-spacing: 0.02em;
-  /* Відступи між літерами */
-  color: var(--color-link-default);
-  /* Колір тексту */
-}
-
-ul li:first-of-type a:hover,
-ul li:first-of-type a:focus {
-  color: var(--color-link-hover);
-  /* Колір тексту при наведенні та фокусі */
+a:focus {
+  color: #404bbf;
+  /* Додано для зміни кольору при фокусі */
+  text-decoration: underline;
 }
 
 /* Стили для логотипа в хедере и футере */
@@ -125,7 +114,7 @@ ul li:first-of-type a:focus {
 .footer-logo {
   font-family: var(--font-raleway);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-logo);
