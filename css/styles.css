@@ -9,38 +9,7 @@
   --color-background-section: #F4F4FD;
 }
 
-/* Стили для заголовків і логотипа */
-.page-logo {
-  font-family: var(--font-raleway);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-logo);
-}
-
-.page-logo span {
-  color: var(--color-logo-span);
-}
-
-.menu-link {
-  font-family: var(--font-roboto);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
-
-/* Стили для секцій */
-.features-section,
-.team-section,
-.portfolio-section {
-  background-color: var(--color-background-section);
-  padding: 20px;
-}
-
+/* Заголовок секцій */
 .features-heading,
 .team-heading,
 .portfolio-heading {
@@ -54,19 +23,22 @@
   color: #2e2f42;
 }
 
-.features-list,
-.team-list,
-.portfolio-list {
-  list-style: none;
-  padding: 0;
+/* Стилі для секцій */
+.features-section,
+.team-section,
+.portfolio-section {
+  background-color: var(--color-background-section);
+  padding: 20px;
 }
 
+/* Стилі для пунктів списків */
 .features-item,
 .team-member,
 .portfolio-item {
   margin-bottom: 20px;
 }
 
+/* Заголовки в пунктах списків */
 .features-item-heading,
 .team-member-name,
 .portfolio-item-heading {
@@ -78,6 +50,7 @@
   color: #2e2f42;
 }
 
+/* Параграфи в пунктах списків */
 .features-item-paragraph,
 .team-member-role,
 .portfolio-item-paragraph {
@@ -86,6 +59,33 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+/* Заголовок сторінки */
+.head-solution {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* Стилі для футера */
+.footer-logo {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-logo);
+}
+
+.footer-description {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 16px;
   color: var(--color-slate);
 }
 
@@ -102,19 +102,4 @@ a {
 
 button {
   cursor: pointer;
-}
-
-/* Footer */
-.footer-logo {
-  font-family: var(--font-raleway);
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--color-logo);
-}
-
-.footer-description {
-  font-family: var(--font-roboto);
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--color-slate);
 }
