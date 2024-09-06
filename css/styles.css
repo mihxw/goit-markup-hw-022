@@ -5,6 +5,7 @@
   --color-white: #f4f4fd;
   --color-slate: #434455;
   --color-dark-blue: #2e2f42;
+  --color-text-dark: #2e2f42;
 }
 
 /* Загальні стилі */
@@ -13,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
-  color: var(--color-dark-blue);
+  color: var(--color-text-dark);
 }
 
 h1,
@@ -21,157 +22,132 @@ h2,
 h3 {
   font-family: var(--font-raleway);
   color: var(--color-dark-blue);
-  text-align: center;
 }
 
-.section-title {
-  font-size: 28px;
-  margin-top: 0;
-}
-
-/* Header styles */
-.page-header {
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--color-white);
-  padding: 20px 40px;
-}
-
-.page-logo {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--color-logo);
+a {
   text-decoration: none;
+  color: inherit;
 }
 
-.page-logo span {
-  color: #2e2f42;
+/* Лого */
+.page-logo,
+.footer-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-slate);
+  display: block;
 }
 
-/* Navigation menu styles */
+.logo-highlight,
+.studio-span {
+  color: var(--color-logo);
+}
+
+/* Навігація */
 .page-nav {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: var(--color-white);
 }
 
 .menu {
+  display: flex;
+  gap: 20px;
   list-style: none;
-  padding: 0;
   margin: 0;
-}
-
-.menu-item {
-  margin-left: 20px;
+  padding: 0;
 }
 
 .menu-link {
-  text-decoration: none;
-  color: var(--color-slate);
-  font-weight: 500;
-  transition: color 0.3s ease;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
-.menu-link:hover {
-  color: var(--color-logo);
-}
-
-/* Contact information styles */
-.menu-contacts {
-  text-align: right;
+/* Секція Контактів */
+.contact-info {
+  padding: 20px 0;
+  text-align: center;
 }
 
 .contact-link {
-  text-decoration: none;
-  color: var(--color-slate);
-  font-size: 14px;
-  margin: 0 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-dark-blue);
+  display: block;
 }
 
-.contact-link:hover {
-  color: var(--color-logo);
+/* Головна секція */
+.main-section {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: var(--color-white);
 }
 
-/* Feature list styles */
+.main-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-dark-blue);
+}
+
+.main-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: var(--color-logo);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+}
+
+/* Секція "Ключові Особливості" */
 .features,
 .team,
 .portfolio {
-  background-color: var(--color-white);
-  padding: 40px 20px;
-  margin: 20px auto;
-  max-width: 1000px;
+  padding: 50px 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .feature-list,
 .team-list,
 .portfolio-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
 }
 
-.feature-item,
-.team-member,
+/* Команда */
+.team-member {
+  text-align: center;
+}
+
+.team-member-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Портфоліо */
 .portfolio-item {
-  width: 45%;
-  background-color: var(--color-white);
-  padding: 20px;
-  margin: 10px;
   text-align: center;
-  transition: transform 0.3s ease;
 }
 
-.feature-item:hover,
-.team-member:hover,
-.portfolio-item:hover {
-  transform: translateY(-5px);
-}
-
-/* Media query for responsiveness */
-@media (max-width: 768px) {
-  .page-nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu {
-    flex-direction: column;
-    margin-top: 10px;
-  }
-
-  .team-list,
-  .portfolio-list,
-  .feature-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .team-member,
-  .portfolio-item,
-  .feature-item {
-    width: 100%;
-    max-width: 400px;
-    margin-bottom: 20px;
-  }
-}
-
-/* Footer styles */
+/* Футер */
 .page-footer {
-  background-color: var(--color-dark-blue);
-  color: var(--color-white);
-  padding: 20px 40px;
   text-align: center;
-  margin-top: 40px;
+  padding: 20px;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-slate);
 }
 
-.footer-logo {
-  font-size: 24px;
-  text-decoration: none;
-  color: var(--color-logo);
-}
-
-.footer-logo:hover {
-  color: #3b4abf;
+.footer-text {
+  font-size: 1rem;
+  color: var(--color-slate);
 }
