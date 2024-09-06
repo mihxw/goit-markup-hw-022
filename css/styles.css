@@ -16,6 +16,8 @@ body {
   background-color: var(--color-white);
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  /* Added to ensure consistent box model */
 }
 
 /* Button styles */
@@ -54,8 +56,8 @@ h1.head-solution {
   margin-bottom: 20px;
 }
 
-/* Styles for h2 in section 2 and 3 */
-h2 {
+/* Styles for h2 in sections 2 and 3 */
+h2.section-title {
   font-family: var(--font-roboto);
   font-weight: 700;
   font-size: 24px;
@@ -64,7 +66,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Styles for h3 in section 2 */
+/* Styles for h3 in sections */
 h3 {
   font-family: var(--font-roboto);
   font-weight: 700;
@@ -81,7 +83,7 @@ section {
 }
 
 /* Styles for section 3 title */
-.section-title {
+.team-section .section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -98,24 +100,24 @@ ol {
   margin: 0;
 }
 
-ul li {
+/* Styles for list items */
+li {
   margin-bottom: 20px;
 }
 
-/* Styles for list items in section 3 */
+/* Styles for list items in sections */
 .feature-item,
 .team-member,
 .portfolio-item {
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
   padding: 20px;
-  border-radius: 5px;
+  font-family: var(--font-roboto);
 }
 
-/* Heading styles for list items in section 3 */
+/* Heading styles for list items */
 .feature-item h3,
 .team-member h3,
 .portfolio-item h3 {
-  font-family: var(--font-roboto);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -124,11 +126,10 @@ ul li {
   margin: 0 0 10px;
 }
 
-/* Description styles for list items in section 3 */
+/* Description styles for list items */
 .feature-item p,
 .team-member p,
 .portfolio-item p {
-  font-family: var(--font-roboto);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
