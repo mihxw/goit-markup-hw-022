@@ -6,27 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Header -->
 
-    <header>
-        <nav>
+    <header class="page-header">
+        <nav class="page-nav">
             <!-- Логотип -->
-            <a href="./index.html">WebStudio</a>
+            <a class="page-logo" href="./index.html">WebStudio</a>
             <!-- Меню -->
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-link" href="#studio">Studio</a></li>
+                <li class="menu-item"><a class="menu-link" href="#portfolio">Portfolio</a></li>
+                <li class="menu-item"><a class="menu-link"href="#contacts">Contacts</a></li>
             </ul>
         </nav>
 
         <!-- Contacts -->
 
-        <address>
+        <address id="contacts">
             <ul>
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
@@ -40,7 +43,7 @@
 
         <!-- Секція №1 -->
 
-        <section>
+        <section id="studio">
             <h1>Effective Solutions for Your Business</h1>
             <button type="button">Order Service</button>
         </section>
@@ -104,7 +107,7 @@
         <!-- Секція #3 - Про портфоліо -->
 
         <section>
-            <h2>Our Portfolio</h2>
+            <h2 id="portfolio">Our Portfolio</h2>
             <ul>
                 <li>
                     <img src="images/banking_app.jpg" width="360" alt="photo of banking app">
