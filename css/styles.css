@@ -3,11 +3,13 @@
   --font-roboto: 'Roboto', sans-serif;
   --font-raleway: 'Raleway', sans-serif;
   --color-slate: #434455;
+  --color-dark-blue: #2e2f42;
   --color-logo: #4d5ae5;
   --color-white: #FFFFFF;
+  --color-light-grey: #F4F4FD;
 }
 
-/* Body styles */
+/* General styles for body */
 body {
   font-family: var(--font-roboto);
   color: var(--color-slate);
@@ -34,13 +36,14 @@ button:hover {
   background-color: #3b4abf;
 }
 
-/* Section headers styles */
+/* Heading styles */
 h1,
 h2,
 h3 {
   margin: 0 0 10px;
 }
 
+/* Styles for h1 in section 1 */
 h1.head-solution {
   font-family: var(--font-roboto);
   font-weight: 700;
@@ -51,6 +54,7 @@ h1.head-solution {
   margin-bottom: 20px;
 }
 
+/* Styles for h2 in section 2 and 3 */
 h2 {
   font-family: var(--font-roboto);
   font-weight: 700;
@@ -60,6 +64,7 @@ h2 {
   margin-bottom: 20px;
 }
 
+/* Styles for h3 in section 2 */
 h3 {
   font-family: var(--font-roboto);
   font-weight: 700;
@@ -67,6 +72,22 @@ h3 {
   line-height: 1.5;
   color: var(--color-slate);
   margin-bottom: 10px;
+}
+
+/* Section styles */
+section {
+  background-color: var(--color-light-grey);
+  padding: 20px;
+}
+
+/* Styles for section 3 title */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-dark-blue);
 }
 
 /* List styles */
@@ -81,14 +102,27 @@ ul li {
   margin-bottom: 20px;
 }
 
-ul img {
-  display: block;
-  margin-bottom: 10px;
+/* Styles for list items in section 3 */
+.feature-item,
+.team-member,
+.portfolio-item {
+  background-color: #FFFFFF;
+  padding: 10px;
 }
 
-/* Link styles */
+/* Description styles for list items */
+.feature-description,
+.team-member-role,
+.portfolio-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+/* Styles for links */
 a {
-  color: #2e2f42;
+  color: var(--color-dark-blue);
   text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -104,7 +138,7 @@ a:focus {
   text-decoration: underline;
 }
 
-/* Header and footer logo styles */
+/* Styles for logos */
 .page-logo,
 .footer-logo {
   font-family: var(--font-raleway);
@@ -127,15 +161,12 @@ a:focus {
 
 .page-nav {
   display: flex;
-  /* Necessary for layout */
   justify-content: space-between;
   align-items: center;
-  /* Necessary for layout */
 }
 
 .menu {
   display: flex;
-  /* Necessary for layout */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -146,7 +177,7 @@ a:focus {
 }
 
 .menu-link {
-  color: var(--color-slate);
+  color: var(--color-dark-blue);
   text-decoration: none;
   font-family: var(--font-roboto);
   font-weight: 500;
