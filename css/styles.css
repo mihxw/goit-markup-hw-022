@@ -16,8 +16,6 @@ body {
   background-color: var(--color-white);
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  /* Added to ensure consistent box model */
 }
 
 /* Button styles */
@@ -26,8 +24,6 @@ button {
   color: #fff;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
-  font-family: var(--font-roboto);
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
@@ -111,7 +107,6 @@ li {
 .portfolio-item {
   background-color: var(--color-white);
   padding: 20px;
-  font-family: var(--font-roboto);
 }
 
 /* Heading styles for list items */
