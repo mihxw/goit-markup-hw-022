@@ -1,42 +1,21 @@
-/* Font and color variables */
 :root {
-  --font-roboto: 'Roboto', sans-serif;
   --font-raleway: 'Raleway', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --color-logo: #4d5ae5;
+  --color-white: #f4f4fd;
   --color-slate: #434455;
   --color-dark-blue: #2e2f42;
-  --color-logo: #4d5ae5;
-  --color-white: #FFFFFF;
-  --color-light-grey: #F4F4FD;
 }
 
-/* General styles for body */
+/* Загальні стилі */
 body {
   font-family: var(--font-roboto);
-  color: var(--color-slate);
-  background-color: var(--color-light-grey);
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: var(--color-dark-blue);
 }
 
-/* Button styles */
-button {
-  background-color: var(--color-logo);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-weight: 500;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #3b4abf;
-}
-
-/* Heading styles */
 h1,
 h2,
 h3 {
@@ -52,12 +31,10 @@ h3 {
 
 /* Header styles */
 .page-header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-white);
   padding: 20px 40px;
-  border-bottom: 1px solid #eee;
 }
 
 .page-logo {
@@ -68,17 +45,15 @@ h3 {
 }
 
 .page-logo span {
-  color: var(--color-dark-blue);
+  color: #2e2f42;
 }
 
 /* Navigation menu styles */
 .page-nav {
-  display: flex;
   align-items: center;
 }
 
 .menu {
-  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -123,8 +98,6 @@ h3 {
   padding: 40px 20px;
   margin: 20px auto;
   max-width: 1000px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .feature-list,
@@ -146,8 +119,6 @@ h3 {
   padding: 20px;
   margin: 10px;
   text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
