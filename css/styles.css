@@ -31,8 +31,8 @@
   font-family: var(--font-raleway);
   font-weight: 700;
   /* Bold */
-  font-size: 4px;
-  /* Замените на нужный размер */
+  font-size: 14px;
+  /* Укажите нужный размер, замените 14px на нужный */
   line-height: 1.5;
   color: var(--color-slate);
 }
@@ -42,71 +42,66 @@
   font-family: var(--font-roboto);
   font-weight: 700;
   /* Bold */
-  font-size: 3px;
+  font-size: 18px;
+  /* Замените на нужный размер */
   line-height: 1.5;
   color: var(--color-slate);
 }
-// <uniquifier>: Use a unique and descriptive class name
 
-.raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
+/* Другие стили для текста */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+/* Стили для списка и ссылок */
+ul,
+ol {
+  list-style-type: none;
+}
 
-  ul, ol {
-    list-style-type: none;
-  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  button {
-    cursor: pointer;
-  }
+button {
+  cursor: pointer;
+}
 
-  /* Header styles */
-
+/* Стили для заголовков и логотипа */
 .page-logo {
-  font-family: 'roboto';
+  font-family: var(--font-roboto);
 }
 
 .menu-link {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
-  /* Contacts */
 
-  .menu-contacts {
-      font-family: var(--font-family);
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: var(--slate);
-  }
+/* Стили для контактов */
+.menu-contacts {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
