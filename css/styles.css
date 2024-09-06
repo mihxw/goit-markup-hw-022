@@ -6,90 +6,130 @@
   --color-white: #FFFFFF;
   --color-logo: #4d5ae5;
   --color-logo-span: #2e2f42;
-  --color-background-section: #F4F4FD;
 }
 
-/* Заголовок секцій */
-.features-heading,
-.team-heading,
-.portfolio-heading {
+/* Стиль для Roboto Regular */
+.text-roboto-regular {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+
+/* Стиль для Roboto Medium */
+.text-roboto-medium {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+
+/* Стиль для Raleway Bold */
+.text-raleway-bold {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+
+/* Стиль для Roboto Bold */
+.text-roboto-bold {
   font-family: var(--font-roboto);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-slate);
 }
 
-/* Стилі для секцій */
-.features-section,
-.team-section,
-.portfolio-section {
-  background-color: var(--color-background-section);
+/* Інші стилі для тексту */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Основні стилі для хедера */
+.page-header {
+  background-color: var(--color-white);
   padding: 20px;
 }
 
-/* Стилі для пунктів списків */
-.features-item,
-.team-member,
-.portfolio-item {
-  margin-bottom: 20px;
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Заголовки в пунктах списків */
-.features-item-heading,
-.team-member-name,
-.portfolio-item-heading {
+.page-logo {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-logo);
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  margin: 0;
+}
+
+.menu-link {
   font-family: var(--font-roboto);
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-/* Параграфи в пунктах списків */
-.features-item-paragraph,
-.team-member-role,
-.portfolio-item-paragraph {
-  font-family: var(--font-roboto);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
-}
-
-/* Заголовок сторінки */
-.head-solution {
-  font-family: var(--font-roboto);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
+  text-decoration: none;
 }
 
-/* Стилі для футера */
-.footer-logo {
-  font-family: var(--font-raleway);
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--color-logo);
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
 }
 
-.footer-description {
+/* Стилі для address */
+.address_contact {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.contact-link {
   font-family: var(--font-roboto);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
-  color: var(--color-slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
 }
 
-/* Загальні стилі */
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+/* Стили для списку і посилань */
 ul,
 ol {
   list-style-type: none;
