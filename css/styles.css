@@ -107,13 +107,28 @@ ul li {
 .team-member,
 .portfolio-item {
   background-color: #FFFFFF;
-  padding: 10px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-/* Description styles for list items */
-.feature-description,
-.team-member-role,
-.portfolio-item-description {
+/* Heading styles for list items in section 3 */
+.feature-item h3,
+.team-member h3,
+.portfolio-item h3 {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-blue);
+  margin: 0 0 10px;
+}
+
+/* Description styles for list items in section 3 */
+.feature-item p,
+.team-member p,
+.portfolio-item p {
+  font-family: var(--font-roboto);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
