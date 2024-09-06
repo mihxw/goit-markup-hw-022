@@ -4,9 +4,15 @@
   --font-raleway: 'Raleway', sans-serif;
   --color-slate: #434455;
   --color-logo: #4d5ae5;
-  /* Синій колір для логотипу */
   --color-white: #FFFFFF;
+  --color-link-default: #2e2f42;
+  /* Колір тексту для посилань */
+  --color-link-hover: #404bbf;
+  /* Колір тексту при наведенні */
 }
+
+/* Підключення Google шрифтів */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@700&display=swap');
 
 /* Стили для body */
 body {
@@ -33,7 +39,6 @@ button {
 
 button:hover {
   background-color: #3b4abf;
-  /* Темніший відтінок для hover ефекту */
 }
 
 /* Стили для заголовков секций */
@@ -94,8 +99,25 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
   text-decoration: underline;
+}
+
+/* Стилі для першого пункту списку */
+ul li:first-of-type a {
+  line-height: 1.5;
+  /* Простір між рядками */
+  letter-spacing: 0.02em;
+  /* Відступи між літерами */
+  color: var(--color-link-default);
+  /* Колір тексту */
+}
+
+ul li:first-of-type a:hover,
+ul li:first-of-type a:focus {
+  color: var(--color-link-hover);
+  /* Колір тексту при наведенні та фокусі */
 }
 
 /* Стили для логотипа в хедере и футере */
