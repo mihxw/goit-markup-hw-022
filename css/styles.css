@@ -10,38 +10,59 @@
   --color-link-hover: #404bbf;
 }
 
-/* Основні стилі для хедера */
-.page-header {
-  background-color: var(--color-white);
-  padding: 20px;
+/* Загальні стилі для тексту */
+.text-roboto-regular {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-slate);
 }
 
-.page-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.text-roboto-medium {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+
+.text-raleway-bold {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+
+.text-roboto-bold {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-slate);
+}
+
+/* Стиль для хедера */
+.page-header {
+  background-color: #F4F4FD;
 }
 
 .page-logo {
   font-family: var(--font-raleway);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-logo);
-  text-decoration: none;
 }
 
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
+.page-logo span {
+  color: var(--color-logo-span);
 }
 
-.menu-item {
-  margin: 0;
-}
-
+/* Стилі для меню */
 .menu-link {
   font-family: var(--font-roboto);
   font-weight: 500;
@@ -49,7 +70,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-link);
-  text-decoration: none;
 }
 
 .menu-link:hover,
@@ -57,10 +77,9 @@
   color: var(--color-link-hover);
 }
 
-/* Стилі для address */
+/* Стиль для контактів */
 .address_contact {
   font-style: normal;
-  margin-top: 20px;
 }
 
 .contact-link {
@@ -69,8 +88,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
-  text-decoration: none;
+  color: #434455;
 }
 
 .contact-link:hover,
@@ -78,19 +96,105 @@
   color: var(--color-link-hover);
 }
 
-/* Стили для списку і посилань */
-ul,
-ol {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+/* Стилі для секцій */
+.head-solution {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.section-title {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
+.feature-title {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.feature-description {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.team-member-name {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #2e2f42;
+}
+
+.team-member-role {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.portfolio-item-title {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #2e2f42;
+}
+
+.portfolio-item-description {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+/* Стилі для кнопок */
 button {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  padding: 10px 20px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #3c4ab5;
+}
+
+/* Стилі для футера */
+footer a {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-logo);
+}
+
+footer a:hover {
+  color: #3c4ab5;
 }
