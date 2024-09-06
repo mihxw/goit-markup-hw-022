@@ -32,7 +32,7 @@ nav {
   text-decoration: none;
 }
 
-.logo-span {
+.logo-highlight {
   color: #2e2f42;
 }
 
@@ -82,9 +82,13 @@ ul {
 }
 
 .intro-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 0;
 }
 
 .cta-button {
@@ -105,6 +109,33 @@ ul {
   background-color: #404BBF;
 }
 
+/* Features List */
+.features-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.feature-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.feature-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 5px 0;
+}
+
 /* Portfolio Section */
 .portfolio {
   background-color: #F4F4FD;
@@ -112,29 +143,37 @@ ul {
 }
 
 .portfolio-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .portfolio-list {
+  list-style-type: none;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .portfolio-item-title {
-  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 10px 0;
 }
 
 .portfolio-item-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,7 +183,7 @@ ul {
 /* Footer */
 .footer {
   background-color: #2e2f42;
-  color: #F4F4FD;
+  color: #ffffff;
   text-align: center;
   padding: 20px;
 }
@@ -155,17 +194,20 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
 }
 
-.footer-logo-span {
-  color: #f4f4fd;
+.footer-logo-highlight {
+  color: #ffffff;
 }
 
 .footer-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 10px 0 0;
 }
