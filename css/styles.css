@@ -5,10 +5,18 @@
   --color-white: #f4f4fd;
   --color-slate: #434455;
   --color-dark-blue: #2e2f42;
-  --color-text-dark: #2e2f42;
+  --font-size-main: 3rem;
+  --font-size-button: 1.2rem;
+  --font-size-section-title: 2rem;
 }
 
 /* Загальні стилі */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--font-roboto);
   margin: 0;
@@ -86,19 +94,23 @@ a {
 }
 
 .main-title {
-  font-size: 3rem;
+  font-size: var(--font-size-main);
   font-weight: 700;
   color: var(--color-dark-blue);
 }
 
 .main-button {
-  font-size: 1.2rem;
+  font-size: var(--font-size-button);
   padding: 10px 20px;
   margin-top: 20px;
   background-color: var(--color-logo);
   color: var(--color-white);
   border: none;
   cursor: pointer;
+}
+
+.main-button:hover {
+  background-color: #3c48a3;
 }
 
 /* Секція "Ключові Особливості" */
@@ -109,7 +121,7 @@ a {
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: var(--font-size-section-title);
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -150,4 +162,18 @@ a {
 .footer-text {
   font-size: 1rem;
   color: var(--color-slate);
+}
+
+/* Медіа-запити */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .feature-list,
+  .team-list,
+  .portfolio-list {
+    grid-template-columns: 1fr;
+  }
 }
