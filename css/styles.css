@@ -139,7 +139,7 @@ body {
 }
 
 .menu-link:focus {
-  color: #404bbf;
+  font-family: #404bbf;
 }
 
 .contact-info {
