@@ -33,7 +33,7 @@ body {
 .features-section,
 .team-section,
 .portfolio-section {
-  background-color: var(--color-background-section);
+  background-color: #FFFFFF;
 }
 
 .features-item,
