@@ -135,14 +135,10 @@ body {
 }
 
 .menu-link:hover {
-  color: #404bbf;
+  font-family: #404bbf;
 }
 
 .menu-link:focus {
-  color: #404bbf;
-}
-
-.menu-item:hover {
   color: #404bbf;
 }
 
