@@ -62,6 +62,11 @@
   color: var(--color-slate);
 }
 
+.menu-body { 
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
 /* Заголовок сторінки */
 .head-solution {
   font-family: var(--font-roboto);
@@ -76,9 +81,13 @@
 
 /* Стилі для футера */
 .footer-logo {
-  font-family: var(--font-raleway);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
   color: var(--color-logo);
 }
 
