@@ -134,14 +134,10 @@ body {
   letter-spacing: 0.02em;
 }
 
-.menu-link:hover {
+.menu-link:hover 
+.menu-link:focus{
   color: #404bbf;
   /* Змінює колір тексту при наведенні мишкою */
-}
-
-.menu-link:focus {
-  color: #404bbf;
-  /* Змінює колір тексту при фокусі або кліку */
 }
 
 .contact-info {
