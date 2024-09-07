@@ -138,6 +138,32 @@ body {
   letter-spacing: 0.02em;
 }
 
+.contact-info {
+  font-style: normal;
+}
+
+/* Стилі для посилання з класом .contact-link */
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  /* Додаємо, щоб уникнути підкреслення посилання */
+}
+
+/* Стилі при наведенні миші на посилання */
+.contact-link:hover {
+  color: #404bbf;
+}
+
+/* Стилі при фокусі на посилання */
+.contact-link:focus {
+  color: #404bbf;
+  outline: none;
+  /* Прибрати стандартне обведення при фокусі */
+}
+
 .menu-link:hover,
 .menu-link:focus {
   color: var(--color-logo);
