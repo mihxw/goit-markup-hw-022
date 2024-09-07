@@ -66,36 +66,38 @@ body {
 
 .menu-body {
   font-family: var(--font-roboto);
-  background-color: var(--color-white);
-  color: var(--color-slate);
 }
 
 .page-header {
-  background-color: var(--color-background-section);
+  background-color: #2e2f42;
 }
 
 .page-nav {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 .footer-logo {
-  font-family: var(--font-raleway);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-footer-logo);
+  display: flex;
+  align-items: center;
   text-decoration: none;
 }
 
-.footer-logo-span {
+.header-logo-text {
+  color: var(--color-logo-span);
+}
+
+.footer-logo-text {
   color: var(--color-footer-text);
 }
 
 .menu {
+  display: flex;
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .menu-item {
@@ -103,48 +105,17 @@ body {
 }
 
 .menu-link {
-  font-family: var(--font-roboto);
+  text-decoration: none;
+  color: var(--color-slate);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
-}
-
-.contact-info {
-  font-style: normal;
-}
-
-.contact-link {
-  font-family: var(--font-roboto);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
-.main-section {
-  text-align: center;
-  background-color: #2e2f42;
-}
-
-.head-solution {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: black;
+  color: var(--color-logo);
 }
 
 .order-service-btn {
@@ -156,6 +127,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
@@ -167,6 +139,7 @@ body {
 .footer {
   background-color: var(--color-footer-bg);
   text-align: center;
+  padding: 20px;
 }
 
 .footer-description {
@@ -176,27 +149,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-footer-text);
-}
-
-.footer-logo {
-  font-family: var(--font-raleway);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-flex;
-  gap: 5px;
-}
-
-
-.footer-logo-text {
-  color: #f4f4fd;
-  /* White color for "Studio" */
-}
-
-.header-logo-text {
-  color: #2e2f42;
-  /* White color for "Studio" */
 }
