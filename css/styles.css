@@ -189,14 +189,13 @@ body {
   gap: 5px;
 }
 
+
 .footer-logo-text {
-  display: inline;
-  color: #4d5ae5;
-  /* Blue color for "Web" */
+  color: white;
+  /* White color for "Studio" */
 }
 
-.footer-logo-text::after {
-  content: "Studio";
-  color: #ffffff;
+.header-logo-text {
+  color: black;
   /* White color for "Studio" */
 }
