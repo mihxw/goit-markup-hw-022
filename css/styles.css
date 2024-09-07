@@ -138,6 +138,14 @@ body {
   letter-spacing: 0.02em;
 }
 
+.menu-link:hover {
+  color: #404bbf;
+}
+
+.menu-link:focus {
+  color: #404bbf;
+}
+
 .contact-info {
   font-style: normal;
 }
@@ -162,11 +170,6 @@ body {
   color: #404bbf;
   outline: none;
   /* Прибрати стандартне обведення при фокусі */
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--color-logo);
 }
 
 .order-service-btn {
