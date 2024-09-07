@@ -180,22 +180,23 @@ body {
 .footer-logo {
   font-family: var(--font-raleway);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-flex;
+  gap: 5px;
 }
 
-.footer-logo-web {
+.footer-logo-text {
+  display: inline;
   color: #4d5ae5;
-  /* синій колір для "Web" */
+  /* Blue color for "Web" */
 }
 
-.footer-logo-span {
-  color: #000000;
-  /* білий колір для "Studio" */
-}
-
-.footer1-logo-span {
-  color: white;
-  /* білий колір для "Studio" */
+.footer-logo-text::after {
+  content: "Studio";
+  color: #ffffff;
+  /* White color for "Studio" */
 }
