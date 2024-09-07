@@ -188,16 +188,18 @@ body {
 }
 
 .footer-logo {
-  display: inline-block;
-  margin-bottom: 10px;
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-logo-web {
+  color: #4d5ae5;
+  /* синій колір для "Web" */
 }
 
 .footer-logo-span {
-  font-family: var(--font-raleway);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-footer-logo);
+  color: #f4f4fd;
 }
