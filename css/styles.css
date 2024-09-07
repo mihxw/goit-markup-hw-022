@@ -134,8 +134,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.menu-link:hover 
-.menu-link:focus {
+.menu-link:hover,
+.menu-link:focus{
   color: #404bbf;
   /* Змінює колір тексту при наведенні мишкою */
 }
