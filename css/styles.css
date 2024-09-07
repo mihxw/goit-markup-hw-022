@@ -135,11 +135,13 @@ body {
 }
 
 .menu-link:hover {
-  font-family: #404bbf;
+  color: #404bbf;
+  /* Змінює колір тексту при наведенні мишкою */
 }
 
 .menu-link:focus {
-  font-family: #404bbf;
+  color: #404bbf;
+  /* Змінює колір тексту при фокусі або кліку */
 }
 
 .contact-info {
