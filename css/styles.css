@@ -187,8 +187,10 @@ body {
 
 .footer-logo-web {
   color: #4d5ae5;
+  /* синій колір для "Web" */
 }
 
 .footer-logo-span {
   color: #f4f4fd;
+  /* білий колір для "Studio" */
 }
