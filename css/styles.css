@@ -34,7 +34,6 @@ body {
 .team-section,
 .portfolio-section {
   background-color: var(--color-background-section);
-  padding: 20px;
 }
 
 .features-item,
@@ -73,13 +72,10 @@ body {
 
 .page-header {
   background-color: var(--color-background-section);
-  padding: 20px;
 }
 
 .page-nav {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .footer-logo {
@@ -99,9 +95,7 @@ body {
 
 .menu {
   list-style: none;
-  padding: 0;
   margin: 0;
-  display: flex;
 }
 
 .menu-item {
@@ -143,8 +137,6 @@ body {
 
 .main-section {
   text-align: center;
-  padding: 40px;
-  background-color: #2e2f42;
 }
 
 .head-solution {
@@ -163,7 +155,6 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
-  padding: 10px 20px;
   cursor: pointer;
 }
 
@@ -174,7 +165,6 @@ body {
 
 .footer {
   background-color: var(--color-footer-bg);
-  padding: 20px;
   text-align: center;
 }
 
@@ -197,7 +187,6 @@ body {
 
 .footer-logo-web {
   color: #4d5ae5;
-  /* синій колір для "Web" */
 }
 
 .footer-logo-span {
