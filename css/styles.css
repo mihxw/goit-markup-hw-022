@@ -88,11 +88,11 @@ body {
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #434455;
+    color: #4d5ae5;
 }
 
 .header-logo-text {
@@ -140,6 +140,11 @@ body {
 
 .contact-info {
   font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
 }
 
 /* Стилі для посилання з класом .contact-link */
