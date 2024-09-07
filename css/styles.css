@@ -73,15 +73,10 @@ body {
 }
 
 .page-nav {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px;
 }
 
 .footer-logo {
-  display: flex;
-  align-items: center;
   text-decoration: none;
 }
 
@@ -94,10 +89,8 @@ body {
 }
 
 .menu {
-  display: flex;
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .menu-item {
@@ -126,8 +119,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  border: none;
-  padding: 10px 20px;
   cursor: pointer;
 }
 
@@ -139,7 +130,6 @@ body {
 .footer {
   background-color: var(--color-footer-bg);
   text-align: center;
-  padding: 20px;
 }
 
 
