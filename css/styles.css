@@ -142,6 +142,10 @@ body {
   color: #404bbf;
 }
 
+.menu-item:hover {
+  color: #404bbf;
+}
+
 .contact-info {
   font-style: normal;
 }
