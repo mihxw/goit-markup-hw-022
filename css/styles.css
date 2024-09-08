@@ -30,10 +30,10 @@ body {
   color: #2e2f42;
 }
 
-.features-section,
 .team-section,
-.portfolio-section {
-   background-color: #F4F4FD;
+.team-heading,
+.team-list {
+  background-color: #F4F4FD;
 }
 
 .features-item,
@@ -84,7 +84,7 @@ body {
 }
 
 .footer-logo {
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -184,7 +184,14 @@ body {
 
 .footer {
   background-color: var(--color-footer-bg);
-  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .footer-description {
@@ -194,8 +201,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-footer-text);
-}
-
-.team-list {
-  background-color: #FFFFFF;
 }
