@@ -84,9 +84,9 @@ body {
 }
 
 .footer-logo {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Raleway","Roboto", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 18px; 
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -202,3 +202,4 @@ ul {
   letter-spacing: 0.02em;
   color: var(--color-footer-text);
 }
+
